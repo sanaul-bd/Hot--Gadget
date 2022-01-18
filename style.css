@@ -1,0 +1,80 @@
+
+.container {
+    margin-bottom: 100px;
+}
+
+/* Nav-logo */
+.nav-logo img {
+    height: 65px;
+    width: 170px;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-item a:hover {
+    color: tomato !important;
+    transition: 0.3s;
+}
+.nav-item a {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* carousel */
+.carousel-bg {
+    background-image: url("bg-1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* .carousel-bg-left{
+    background-image: url("bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+} */
+
+/* card */
+.product-top{
+    margin-bottom: 50px;
+}
+
+.product-top h5{
+    color: orangered;
+}
+
+.card{
+    border: none;
+    box-shadow: 2px 2px 5px lightgray;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.card-body h3{
+    margin-bottom: 30px;
+}
+
+/* categories */
+
+.categories h1{
+    text-align: center;
+}
+.categories span{
+    border-bottom: 5px solid orange;
+    width: 150px;
+    margin-top: 23px;
+    align-items: center;
+    margin-left: 44%;
+}
+
+.img img{
+    box-shadow: 2px 2px 5px lightgray;
+    border-radius: 4px;
+    padding: 40px;
+}
+/* footer */
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
